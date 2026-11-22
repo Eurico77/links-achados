@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#6B3A4A">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Links de afiliado de Beleza que Eu Testei.">
+  <title>Beleza que Eu Testei</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236B3A4A'/%3E%3Ctext x='16' y='21' text-anchor='middle' font-size='13' font-family='system-ui' fill='%23FBF6F4' font-weight='700'%3EBQ%3C/text%3E%3C/svg%3E">
+  <style>
+:root {
+  --fundo: #F6EEEA;
+  --cartao: #FFFCFA;
+  --texto: #1F1719;
+  --suave: #6E5B60;
+  --linha: #E8D8D4;
+  --destaque: #6B3A4A;
+  --destaque-hover: #542E3B;
+  --destaque-texto: #FBF6F4;
+  --avatar-fundo: #F0E0E3;
+  --avatar-texto: #6B3A4A;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--fundo); color: var(--texto); }
+body {
+  font-family: "SF Pro Display", "Segoe UI", "Helvetica Neue", ui-sans-serif, system-ui, sans-serif;
+  line-height: 1.45;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.wrap {
+  width: min(440px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 36px 0 56px;
+}
+header { text-align: center; margin-bottom: 28px; }
+.avatar {
+  width: 72px; height: 72px;
+  border-radius: 50%;
+  background: var(--avatar-fundo);
+  color: var(--avatar-texto);
+  display: grid; place-items: center;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 22px;
+  margin: 0 auto 16px;
+  border: 1px solid var(--linha);
+}
+h1 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin-bottom: 2px;
+}
+.handle {
+  color: var(--suave);
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+.aviso {
+  display: inline-block;
+  color: var(--suave);
+  font-size: 0.78rem;
+  line-height: 1.35;
+  padding: 8px 12px;
+  border: 1px solid var(--linha);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--cartao) 80%, transparent);
+}
+.lista { display: grid; gap: 14px; }
+.card {
+  background: var(--cartao);
+  border: 1px solid var(--linha);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(31, 26, 22, 0.05);
+}
+.card figure {
+  margin: 0;
+  aspect-ratio: 1 / 1;
+  background: #f7f3ee;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.card .corpo {
+  padding: 16px 16px 18px;
+  display: grid;
+  gap: 12px;
+}
+.card h2 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+.btn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background: var(--destaque);
+  color: var(--destaque-texto);
+  font-weight: 600;
+  font-size: 0.98rem;
+  padding: 13px 16px;
+  border-radius: 12px;
+  transition: background .15s ease, transform .15s ease;
+}
+.btn:hover { background: var(--destaque-hover); }
+.btn:active { transform: scale(0.98); }
+footer {
+  margin-top: 28px;
+  text-align: center;
+  color: var(--suave);
+  font-size: 0.75rem;
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn { transition: none; }
+}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="avatar" aria-hidden="true">BQ</div>
+      <h1>Beleza que Eu Testei</h1>
+      <p class="handle">@belezaqueeutestei</p>
+      <p class="aviso">#publi · Links de afiliado. Preços podem mudar.</p>
+    </header>
+    <section class="lista" aria-label="Produtos">
+      <article class="card">
+        <figure><img src="fotos/ollie.jpg" alt="Protetor bastão Ollie" width="900" height="900" loading="lazy" decoding="async"></figure>
+        <div class="corpo">
+          <h2>Protetor bastão Ollie</h2>
+          <a class="btn" href="https://s.shopee.com.br/7AfJAyRiIL" rel="sponsored nofollow noopener noreferrer">Ver produto</a>
+        </div>
+      </article>
+      <article class="card">
+        <figure><img src="fotos/clarinha.jpg" alt="Sérum Clarinha" width="900" height="900" loading="lazy" decoding="async"></figure>
+        <div class="corpo">
+          <h2>Sérum Clarinha</h2>
+          <a class="btn" href="https://s.shopee.com.br/70LsydgDYA" rel="sponsored nofollow noopener noreferrer">Ver produto</a>
+        </div>
+      </article>
+      <article class="card">
+        <figure><img src="fotos/gokoco.jpg" alt="Secador GOKOCO 5 em 1" width="900" height="900" loading="lazy" decoding="async"></figure>
+        <div class="corpo">
+          <h2>Secador GOKOCO 5 em 1</h2>
+          <a class="btn" href="https://s.shopee.com.br/4fxxlqbEI8" rel="sponsored nofollow noopener noreferrer">Ver produto</a>
+        </div>
+      </article>
+    </section>
+    <footer>Atualizado em 22/11/2026</footer>
+  </main>
+</body>
+</html>
